@@ -4,10 +4,6 @@
 
 <h1 align="center"><font color="red">声明</font></h1>
 
-**这项目我一直作为技术分享，不做收费（版权归我个人独有，大家拿来学习交流随时欢迎，拒绝商用）。希望大家可以尊重下我的劳动成果，谢谢。**
-
-<br/>
-
 ## 项目说明
 
 本音乐网站的客户端和管理端使用 **Vue** 框架来实现，服务端使用 **Spring Boot + MyBatis** 来实现，数据库使用了 **MySQL**。实现思路可以看 **[这里](https://yin-hongwei.github.io/2019/03/04/music/#more)**；项目启动方法看文章末尾。
@@ -100,13 +96,6 @@ IDE：IntelliJ IDEA 2018、VSCode
 
 ### 1、下载项目到本地
 
-```bash
-git clone git@github.com:Yin-Hongwei/music-website.git
-
-# 上面下载慢可以用下面这个
-git clone git@gitee.com:Yin-hongwei/music-website.git
-```
-
 ### 2、下载数据库中记录的资源
 
 去【链接: https://pan.baidu.com/s/1Qv0ohAIPeTthPK_CDwpfWg 提取码: gwa4 】下载网站依赖的歌曲及图片，将 data 夹里的文件放到 music-server 文件夹下。
@@ -127,13 +116,6 @@ git clone git@gitee.com:Yin-hongwei/music-website.git
 
 - **启动管理端**：进入 music-server 文件夹，运行下面命令启动服务器
 
-```js
-// 方法一
-./mvnw spring-boot:run
-
-// 方法二
-mvn spring-boot:run // 前提装了 maven
-```
 
 - **启动客户端**：进入 music-client 目录，运行下面命令
 
@@ -152,16 +134,4 @@ npm run serve // 启动后台管理项目
 ```
 
 <br/>
-
-## 赞助
-
-如果此项目对你确实有帮助，欢迎给我打赏一杯咖啡～😄
-
-<img src="https://tva1.sinaimg.cn/large/008i3skNgy1gsgm6jokvaj30gs0feadd.jpg" height="300px"/>
-
-<br/>
-
-## License
-
-Copyright (c) 2018 Yin-Hongwei 
 
